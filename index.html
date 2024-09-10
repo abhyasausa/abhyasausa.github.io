@@ -7,12 +7,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #d4a37b;
             color: white;
             padding: 1rem;
             text-align: center;
@@ -24,7 +24,7 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #4CAF50;
+            color: #d4a37b;
             font-weight: bold;
         }
         .container {
@@ -37,7 +37,7 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         footer {
-            background-color: #4CAF50;
+            background-color: #d4a37b;
             color: white;
             text-align: center;
             padding: 1rem;
@@ -45,48 +45,62 @@
             width: 100%;
             bottom: 0;
         }
+        .symbol {
+            font-size: 0.8rem;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .heading-symbol {
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Abhyasa Academy</h1>
-        <p>Your pathway to excellence in Python and Mathematics</p>
+        <h1>Welcome to Abhyasa Academy <span class="symbol heading-symbol">🧮</span></h1>
+        <p>Your pathway to excellence in Python <span class="symbol heading-symbol">🐍</span> and Mathematics</p>
     </header>
 
     <nav>
-        <a href="#python">Python Classes</a>
-        <a href="#math5-6">Maths (5-6th Grade)</a>
-        <a href="#math7-8">Maths (7-8th Grade)</a>
-        <a href="#about">About Us</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#python">Python Classes <span class="symbol">🐍</span></a>
+        <a href="#math5-6">Maths (5-6th Grade) <span class="symbol">➗</span></a>
+        <a href="#math7-8">Maths (7-8th Grade) <span class="symbol">🔢</span></a>
+        <a href="#about">About Us <span class="symbol">ℹ️</span></a>
+        <a href="#contact">Contact Us <span class="symbol">📞</span></a>
     </nav>
 
     <div class="container">
         <div id="python" class="class-section">
-            <h2>Python Classes</h2>
-            <p>Our Python classes are designed to introduce students to the world of programming. Whether you're a beginner or looking to sharpen your skills, we provide a solid foundation in coding and problem-solving.</p>
+            <h2>Python Classes <span class="symbol">🐍</span></h2>
+            <p>Our Python classes are designed to introduce students to the world of programming. Whether you're a beginner or looking to sharpen your skills, we provide a solid foundation in coding and problem-solving <span class="symbol">🖥️</span>.</p>
         </div>
 
         <div id="math5-6" class="class-section">
-            <h2>Mathematics for 5-6th Grade</h2>
-            <p>Our Maths program for 5th and 6th graders focuses on strengthening fundamental concepts such as fractions, decimals, and basic algebra. Students will build problem-solving skills to succeed in school and beyond.</p>
+            <h2>Mathematics for 5-6th Grade <span class="symbol">➗</span></h2>
+            <p>Our Maths program for 5th and 6th graders focuses on strengthening fundamental concepts such as fractions, decimals, and basic algebra <span class="symbol">➕</span>. Students will build problem-solving skills to succeed in school and beyond.</p>
         </div>
 
         <div id="math7-8" class="class-section">
-            <h2>Mathematics for 7-8th Grade</h2>
-            <p>Our Maths program for 7th and 8th graders covers advanced topics like algebra, geometry, and equations. We focus on preparing students for higher education and helping them master these challenging subjects.</p>
+            <h2>Mathematics for 7-8th Grade <span class="symbol">🔢</span></h2>
+            <p>Our Maths program for 7th and 8th graders covers advanced topics like algebra, geometry, and equations <span class="symbol">🔣</span>. We focus on preparing students for higher education and helping them master these challenging subjects.</p>
         </div>
     </div>
 
     <footer>
         <div id="about">
-            <h2>About Us</h2>
-            <p>Abhyasa Academy is dedicated to providing quality education in Python programming and Mathematics. Our mission is to inspire students to achieve academic success and foster a love for learning.</p>
+            <h2>About Us <span class="symbol">ℹ️</span></h2>
+            <p>Abhyasa Academy is dedicated to providing quality education in Python programming and Mathematics. Our mission is to inspire students to achieve academic success and foster a love for learning <span class="symbol">🌟</span>.</p>
         </div>
 
         <div id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: info@abhyasaacademy.com | Phone: (123) 456-7890</p>
+            <h2>Contact Us <span class="symbol">📞</span></h2>
+            <p>Email: info@abhyasaacademy.com | Phone: (123) 456-7890 <span class="symbol">📧</span></p>
         </div>
     </footer>
 </body>
