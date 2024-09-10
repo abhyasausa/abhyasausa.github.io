@@ -1,86 +1,24 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhyasa Academy</title>
+    <title>Abhyasa Academy </title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        html, body {
+            height: 100%;
             margin: 0;
             padding: 0;
-            text-align: center;
+            overflow: hidden; /* Prevents scrolling */
         }
-        header {
-            background-color: #d4a37b;
-            color: white;
-            padding: 1rem;
-            position: relative;
-        }
-        .logo {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 200px; /* Adjust size as needed */
-        }
-        nav {
-            margin: 1rem;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #d4a37b;
-            font-weight: bold;
-        }
-        .container {
-            margin: 2rem;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for content */
-            padding: 1rem;
-            border-radius: 8px;
-        }
-        .class-section {
-            padding: 1rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        footer {
-            background-color: #d4a37b;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: fixed;
+        iframe {
             width: 100%;
-            bottom: 0;
-        }
-        .symbol {
-            font-size: 0.8rem;
-            vertical-align: middle;
-            margin-left: 5px;
-        }
-        h2 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .heading-symbol {
-            font-size: 1.2rem;
-            margin-right: 10px;
+            height: 100vh; /* Full viewport height */
+            border: none;
         }
     </style>
 </head>
 <body>
-    <header>
-        <img src="Abhyasa.jpeg" alt=" Abhyasa Academy Logo " class="logo">
-        <h1>Welcome to Abhyasa Academy <span class="symbol heading-symbol">🧮</span></h1>
-        <p>Your pathway to excellence in Python <span class="symbol heading-symbol">🐍</span> and Mathematics</p>
-    </header>
- 
-    <!-- Embed the external webpage -->
-    <iframe class="iframe-container" src="https://new.express.adobe.com/webpage/JwYiutQbhRHIE" title="Embedded Page"></iframe>
- 
-    <footer>
-        <p>&copy; 2024 Abhyasa Academy</p>
-    </footer>
+    <iframe src="https://new.express.adobe.com/webpage/JwYiutQbhRHIE" title="Embedded Page"></iframe>
 </body>
 </html>
